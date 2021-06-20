@@ -1,0 +1,15 @@
+---
+application:
+  name: "nodejs-api-image"
+  project: "uploadimage"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "db_barang"
+  version: "8.0"
+routers:
+- name: "main-nodejs-api-image"
+  routes:
+  - application_name: "nodejs-api-image"
+    paths:
+    - "/*"
